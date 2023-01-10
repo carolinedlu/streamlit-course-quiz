@@ -8,6 +8,7 @@ with placeholder.container():
   ready = st.button("I'm ready!")
 
 if ready:
+  placeholder.empty()
   with placeholder.container():
     with st.form("question_1"):
       question_1 = st.radio(
