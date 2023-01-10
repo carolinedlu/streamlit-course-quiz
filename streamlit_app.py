@@ -17,6 +17,7 @@ if ready:
     submit = st.form_submit_button("Submit")
     if submit:
       st.session_state['answer_1'] = question_1
+      st.write(st.session_state['answer_1'])
       if st.session_state['answer_1'] == 'A tool that automates the process of installing, upgrading, configuring, and removing dependencies':
         st.success("That's right! Great job.", icon="✅")
       else:
