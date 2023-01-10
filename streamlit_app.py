@@ -1,7 +1,7 @@
 import streamlit as st
 
-placeholder = st.empty
-st.write('Are you ready to answer a few questions about installing Streamlit?')
+placeholder = st.empty()
+placeholder.write('Are you ready to answer a few questions about installing Streamlit?')
 ready = placeholder.button("I'm ready!")
 
 if ready:
