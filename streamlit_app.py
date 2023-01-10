@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.subheader("Quiz!")
+st.subheader("Quiz")
 placeholder = st.empty()
 
 with placeholder.container():
