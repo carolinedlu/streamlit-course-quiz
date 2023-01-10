@@ -9,7 +9,7 @@ with placeholder.container():
 
 if ready:
 #   with placeholder.container():
-  with placeholder.form("question_1"):
+  with placeholder.form("question_1",clear_on_submit=False):
     question_1 = st.radio(
       "What is a package manager?",
       ('A person who delivers Amazon shipments', 'A tool that automates the process of installing, upgrading, configuring, and removing dependencies', 'A method to keep your development environment separate from other projects on the same machine', 'A tool that automatically removes dependencies if they have been deprecated'))
