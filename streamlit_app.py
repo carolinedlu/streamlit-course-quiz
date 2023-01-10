@@ -19,6 +19,9 @@ with st.form("question_1",clear_on_submit=False):
   
   if submit:
     st.session_state['answer_1'] = question_1
+    if st.session_state['answer_1'] == 'A tool that automates the process of installing, upgrading, configuring, and removing dependencies':
+      st.success("That's right! Great job.", icon="✅")
+
   #       st.write(st.session_state['answer_1'])
 #   if st.session_state['answer_1']:
 #   if st.session_state['answer_1'] == 'A tool that automates the process of installing, upgrading, configuring, and removing dependencies':
