@@ -19,8 +19,9 @@ if ready:
     st.session_state['answer_1'] = question_1
     if st.session_state['answer_1'] == 'A tool that automates the process of installing, upgrading, configuring, and removing dependencies':
       st.success("That's right! Great job.", icon="✅")
+    else:
 #   elif submit and question_1 !='A tool that automates the process of installing, upgrading, configuring, and removing dependencies':
-#     st.error('Uh oh. Wrong answer. Try again!', icon="🚨")
+      st.error('Uh oh. Wrong answer. Try again!', icon="🚨")
 
 
   
