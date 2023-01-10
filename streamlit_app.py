@@ -9,7 +9,7 @@ placeholder = st.empty()
 
 # if ready:
 #   with placeholder.container():
-  with placeholder.form("question_1",clear_on_submit=False):
+#   with placeholder.form("question_1",clear_on_submit=False):
 with st.form("question_1",clear_on_submit=False):
 
   question_1 = st.radio(
