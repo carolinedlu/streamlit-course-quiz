@@ -1,12 +1,10 @@
 import streamlit as st
 
 placeholder = st.empty
-with placeholder.container():
-  st.write('Are you ready to answer a few questions about installing Streamlit?')
-  ready = st.button("I'm ready!")
+placeholder.write('Are you ready to answer a few questions about installing Streamlit?')
+ready = placeholder.button("I'm ready!")
 
 if ready:
-  placeholder.empty()
   with placeholder.container():
     question_1 = st.radio(
       "What is a package manager?",
