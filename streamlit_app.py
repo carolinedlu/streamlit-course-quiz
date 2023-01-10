@@ -16,10 +16,10 @@ if ready:
 
     submit = st.form_submit_button("Submit")
     
-    if submit and question_1 == 'A tool that automates the process of installing, upgrading, configuring, and removing dependencies':
-        st.success("That's right! Great job.", icon="✅")
-    elif submit and question_1 !='A tool that automates the process of installing, upgrading, configuring, and removing dependencies':
-        st.error('Uh oh. Wrong answer. Try again!', icon="🚨")
+  if submit and question_1 == 'A tool that automates the process of installing, upgrading, configuring, and removing dependencies':
+    st.success("That's right! Great job.", icon="✅")
+  elif submit and question_1 !='A tool that automates the process of installing, upgrading, configuring, and removing dependencies':
+    st.error('Uh oh. Wrong answer. Try again!', icon="🚨")
 
 
   
